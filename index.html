@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to Calculator!</h1>
+
+    <div class="calculator">
+        <input id="display" type="text" readonly>
+        <div class="keys">
+            <button onclick="clearDisplay()" class="grey" id="clear">AC</button>
+            <button onclick="deleteChar()" class="grey">DEL</button>
+            <button onclick="getPercentage()" class="grey">%</button>
+            <button onclick="getOperater('➗')" class="orange">➗</button>
+            <button onclick="getNumber('7')" class="black">7</button>
+            <button onclick="getNumber('8')" class="black">8</button>
+            <button onclick="getNumber('9')" class="black">9</button>
+            <button onclick="getOperater('x')" class="orange">x</button>
+            <button onclick="getNumber('4')" class="black">4</button>
+            <button onclick="getNumber('5')" class="black">5</button>
+            <button onclick="getNumber('6')" class="black">6</button>
+            <button onclick="getOperater('-')" class="orange">-</button>
+            <button onclick="getNumber('1')" class="black">1</button>
+            <button onclick="getNumber('2')" class="black">2</button>
+            <button onclick="getNumber('3')" class="black">3</button>
+            <button onclick="getOperater('+')" class="orange">+</button>
+            <button onclick="getNumber('0')" class="black" id="btn0">0</button>
+            <button onclick="calculate()" class="orange">=</button>
+        </div>    
+    </div>
+</body>
+</html>
